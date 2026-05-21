@@ -6,7 +6,6 @@ import os
 
 st.set_page_config(page_title="Predicción de Consumo Energético", page_icon="⚡", layout="centered")
 
-models_dir = "/content/drive/MyDrive/Ejercicios IA/Trabajo final IA"
 
 @st.cache_resource
 def load_artifacts():
