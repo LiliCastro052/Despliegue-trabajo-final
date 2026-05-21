@@ -6,6 +6,7 @@ import os
 
 st.set_page_config(page_title="Predicción de Consumo Energético", page_icon="⚡", layout="centered")
 
+models_dir = os.path.dirname(os.path.abspath(__file__))
 
 @st.cache_resource
 def load_artifacts():
